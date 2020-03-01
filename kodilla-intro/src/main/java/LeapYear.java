@@ -18,6 +18,7 @@ public class LeapYear {
     }
 
 
+
 //    public boolean isLeapYear(){
 //        if (this.year%4 != 0) {
 //            System.out.println("Rok nie jest przestępny");

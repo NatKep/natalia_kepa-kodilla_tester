@@ -21,7 +21,7 @@ public class FirstClass {
 
         LeapYear someYear = new LeapYear(1900);
         boolean isLeapYear = someYear.isLeapYear();
-        System.out.println("Czy rok przestępny?: " + isLeapYear);
+        System.out.println("Czy to rok przestępny?: " + isLeapYear);
 
     }
 }
