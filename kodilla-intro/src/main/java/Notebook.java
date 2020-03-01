@@ -21,6 +21,11 @@ public class Notebook {
         }
     }
 
+    public int getWeight() {
+        return this.weight;
+    }
+
+
     public void checkWeight() {
         if(this.weight < 1000) {
             System.out.println("This notebook is light");

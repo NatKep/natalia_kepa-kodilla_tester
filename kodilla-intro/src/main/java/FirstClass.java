@@ -19,17 +19,9 @@ public class FirstClass {
         oldNotebook.checkPriceAndYear();
 
 
+        LeapYear someYear = new LeapYear(1900);
+        boolean isLeapYear = someYear.isLeapYear();
+        System.out.println("Czy rok przestępny?: " + isLeapYear);
 
-
-
-
-
-/*
-        if (notebook.price < 1000) {
-            System.out.println("This notebook is cheap");
-        } else {
-            System.out.println("This notebook is quite expensive");
-        }
-*/
     }
 }
