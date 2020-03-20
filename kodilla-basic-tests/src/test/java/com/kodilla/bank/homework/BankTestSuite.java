@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BankTestSuite {
 
-    @Test       // test metody sprawdzającej saldo w bankomacie pierwszym
+    @Test       // test metody sprawdzającej saldo w bankomacie pierwszym (liczby dodatnie i ujemne)
     public void checkBalanceInMachineOne() {
         Bank bank = new Bank();
         bank.makeTransactionInMachineOne(1);

@@ -16,14 +16,11 @@ public class CashMachineTestSuite {
         assertEquals(0, transactions.length);
     }
 
-    @Test       // test dodawania transakcji do tablicy
+    @Test       // test dodawania transakcji do tablicy (i sprawdzający czy wartość dodanych kwot się zgadza)
     public void shouldAddTwoElementsToArray() {
         CashMachine cashMachine = new CashMachine();
         cashMachine.add(-5);
         cashMachine.add(-2);
-
-//        int[] array = cashMachine.getTransactions();
-//        System.out.println(Arrays.toString(array));
 
         int[] transactions = cashMachine.getTransactions();
         assertEquals(2, transactions.length);
@@ -72,7 +69,7 @@ public class CashMachineTestSuite {
         assertEquals(1, number);
     }
 
-    @Test
+    @Test       // test sprawdzający metodę liczącą sumę wpłat do bankomatu
     public void sumOfPositiveTransactions() {
         CashMachine cashMachine = new CashMachine();
         cashMachine.add(-5);
@@ -84,7 +81,7 @@ public class CashMachineTestSuite {
 
     }
 
-    @Test
+    @Test       // test sprawdzający metodę liczącą sumę wypłat z bankomatu
     public void sumOfNegativeTransactions() {
         CashMachine cashMachine = new CashMachine();
         cashMachine.add(-5);
