@@ -6,10 +6,10 @@ public class Bank {
     private CashMachine machineOne;     // bankomat pierwszy z transakcjami
     private CashMachine machineTwo;     // bankomat drugi z transakcjami
 
-    public Bank() {
-        this.machineOne = new CashMachine();
-        this.machineTwo = new CashMachine();
-    }
+//    public Bank() {
+//        this.machineOne = new CashMachine();
+//        this.machineTwo = new CashMachine();
+//    }
 
     // metoda wykonująca transakcję w bankomacie pierwszym
     public void makeTransactionInMachineOne(int transactionValue) {

@@ -23,6 +23,8 @@ public class CashMachineTestSuite {
         cashMachine.add(-2);
 
         int[] transactions = cashMachine.getTransactions();
+        System.out.println(transactions[0]);
+        System.out.println(Arrays.toString(transactions));
         assertEquals(2, transactions.length);
         assertEquals(-5, transactions[0]);
         assertEquals(-2, transactions[1]);
